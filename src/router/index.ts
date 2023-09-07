@@ -13,6 +13,16 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: () => import('../md/about.md')
+    },
+    {
+      path: '/array',
+      name: 'array',
+      component: () => import('../md/vue2_数组.md')
+    },
+    {
+      path: '/error',
+      name: 'error',
+      component: () => import('../md/vue2_错误.md')
     }
   ]
 })
