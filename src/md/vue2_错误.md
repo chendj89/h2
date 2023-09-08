@@ -22,7 +22,7 @@
 
 ```js
 mounted(){
-	this.submit()
+    this.submit()
 },
 computed: {
 	setName(){
@@ -42,11 +42,11 @@ methods: {
 computed: {
 	setName(){
 		get(){
-            return this.form.name
-        },
-        set(value) {
-           this.setName = value
-        }
+      return this.form.name
+    },
+    set(value) {
+      this.setName = value
+    }
 	}
-},
+}
 ```
