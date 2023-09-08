@@ -4,69 +4,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <RouterView />
+  <iframe class="app" style="border: none;width:100vw;height: 100vh;overflow: hidden;" 
+  src="https://play.vuejs.org/#eNqVVl9vG0UQ/yqrQyiXxLmzY1oh40RKopCCCERJpb7cy/pu7Nv0bvfY3bMdQiQqASoPFTzwVCqB+gwS4gGhCsSXwUn6LZjdvTvHblS1URzvzb/9zcxv5nLu7RRFMC7B63l9FUtWaKJAl8V2xFleCKnJOZEwbBHBD0XJNSTkggylyMkKeq18EPFhyWPNBCcj0MeUJyLfE5mQ/io5jzghYUiufvz58vEPL59+f/nsxdXTr8nxwS6ZffW30caCK00k2SKHVKfBMBPoaY/ShsIoa2Tzzt1VvKi2Hr2V9eCNrCuks9+/rdFd//Pr5ZPn//31Yvbk0eyb367//Wn2+M+Xz59df/fH1S+P5vFTmJIt80jIyjsrZJ34fof0+2TzvVXyJfGlOXfu2vPInN83x8FqoMWJloyPfFQGKmMx+J0aicQOSG5Co+Ai4u6mmPIxVZgO9sPnZZYZ86pJawQ19+8d7+9XzdGpBNse56ti4ICuHCbOLDgxEt+EqKoKIgctzxaMdsX0oJL7m+0WcZ+5U041SEazBadDUOkuVSzGWlutb4kQG1b0SHs6HLbxp4WZ3QiEPq8E8WtMreYi42Fsg0IoZlgXIFt9RNXBjwVmMw1okvjGbn7DhCXaXDFh2PtJwDgH+cDIGosU2CjVSyb3rLCxiWkOki4gPQKpCsARGMOe1fpdxOKuC6ugiK9Fupi1xWOtFjPYxIJgZd2fG0bI2Yc72qbSOMxzksATkGDGZ47nAQwOPjmuNK70lGusHaOqR7QsoS597W4QnLAvwLegWxVmY5EBpmzGHm/oWHI2006RetiUeswlfF6C0jtWivoPJSbgV0ZuHpvr4gwo7gcrtJlJoa1TcEbWt0g7aHcXHdzBt61tVT2oZxzBra/bMxsS34HdRrRYRoesMsIM2tYM76zIFFhKLhTPra7lTebuwkHE34ocAqunsGbo3ZRkXotX6rrEOcOPZY5VCbm+U0up2+iKnLqVn41rWSSY35EUp4aUuLYp7pmpLfcFfpo97iPcrW2HuGlmFcgsmmBMsxInqSgwnb2UZYnfJIal2c8gB25RWzL1Q/f6wBcHPmjIiwwj4hPpJ2xM4owqtRV5GC7yzAbDs7sn8rb7IZqgaT+84ddX+iwzhzWHMadyxDguEIuxwAnH7Vk/DsR0A9thJQMhEeUGitz2THWeIeUHIjnDL5OQC+ho3jNUedcGEWOQ+JaY9EjKkgS4c8fELBCv5bllu5HTIjhVguM70waKKgWm0qs5F3l2AxtJ5KVaF6oXhnHCg4EQ2nxz0CE9pdMwYwMVWmMMGraDzp1O0K0EuUjKzMgjr2YgwtAKx3/IRksgYpEXLAP5WWHavgiGZpjXx1ZWbQAnj1OIH94iP1VTB/0IaQ5yjIk0Oo2NAO3U+yefwhTPjdIhfq3yGJTISoPRme2WPEHYN+ws2o9sTbGj99X+VANXdVIGqK2GtY88/D9k7zWpz+F2g25TxYv/AZ2EFI0="></iframe>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
 </style>
