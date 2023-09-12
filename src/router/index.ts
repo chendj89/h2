@@ -35,6 +35,14 @@ const router = createRouter({
         cls: 'md'
       },
       component: () => import('../md/vue2_错误.md')
+    },
+    {
+      path: '/vue3Components',
+      name: 'vue3Components',
+      meta: {
+        cls: 'md'
+      },
+      component: () => import('../md/vue3/组件编写.md')
     }
   ]
 })

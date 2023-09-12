@@ -15,7 +15,7 @@ const vitePluginMd = (opts?: MarkdownOptions): PluginOption => {
         sfcBlocks.scripts.push(script.md)
         return [
           sfcBlocks?.scriptSetup ? sfcBlocks?.scriptSetup?.content : '',
-          `<template><div :class="__cls" class="theme-default-content" style="width:800px;margin:0 auto;">${html}</div></template>
+          `<template><div :class="__cls" class="theme-default-content">${html}</div></template>
           `,
           ...(sfcBlocks?.scripts.map((item: any) => item.content) ?? []),
           ...(sfcBlocks?.styles.map((item: any) => item.content) ?? []),
