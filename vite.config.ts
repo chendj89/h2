@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vitePluginMd from './src/plugins/vueMdPlugin'
+import chencc from './src/plugins/vueSfc'
 export default defineConfig({
   plugins: [
     vue({
@@ -13,7 +14,8 @@ export default defineConfig({
       shiki: {
         theme: 'dark-plus'
       }
-    })
+    }),
+    chencc()
   ],
   resolve: {
     alias: {
