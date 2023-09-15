@@ -43,6 +43,14 @@ const router = createRouter({
         cls: 'md'
       },
       component: () => import('../md/vue3/组件编写.md')
+    },
+    {
+      path: '/vue3Tsx',
+      name: 'vue3Tsx',
+      meta: {
+        cls: 'md'
+      },
+      component: () => import('../md/vue3/tsx.md')
     }
   ]
 })
